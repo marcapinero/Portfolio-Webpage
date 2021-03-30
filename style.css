@@ -1,0 +1,88 @@
+/*This will be my styling settings for Marc Pinero and Software Engineer header*/
+header {
+  display: flex; /*This will fill up available free space*/
+  width: auto; /*This will expand to occupy all available horizontal space within the header.*/
+  margin: auto; /*This will horizontally center the element within the header.*/
+}
+/*This will be my navigation bar at the top of my webpage*/
+nav {
+background-image: url("images/IMG-mountain.JPG"); /*This is the path to my image in the folder*/
+ flex: 1; /*This will make the navigation bar fill the page horizontally.*/
+   max-width: 100%;/*This makes the width fit to the screen*/
+   background-size: cover; /*This scales the image as large as possible to fill the navigation container.*/
+   padding: 0;/*There will be no space between the inner box and the outer border.*/
+   margin: 0;/*The space outside the border is zero.*/ 
+   line-height: 1%;/*This brings the text in my navigation bar closer together.*/
+}
+
+/*Since I know I want everything on my webpage to be one font I will make the whole body 'Times New Roman'.*/
+body {
+font-family: 'Times New Roman', Times, serif
+  }
+/*This will be where I style both images on my webpage*/
+img {
+  height: 290px; /*This will set how tall each of my images are.*/'
+ display: block; /*Displays an element as a block element. It starts on a new line, and takes up the whole width.*/
+  margin-left: auto; /* These two styles will center the image.*/
+  margin-right: auto; /* These two styles will center the image.*/
+width: 250px;/*This sets the width of the images to 250 pixels*/ 
+}
+
+
+/*This will style the text in the navigation bar.*/
+h1{
+text-align: center;/*This will center my text in the navigation bar.*/
+color: white;/*This sets the color of the text to white.*/
+ }
+
+/*This will style all of content in the body of my webpage.*/
+main{
+  background-color: #d2d4c8;/*This will set the background color of the body of my webpage.*/
+  background-size: cover; /*This scales the background as large as possible to fill the body.*/
+  max-width: 100% /*This makes the width fit to the screen*/
+  margin-bottom: 0; /*This makes sure there isn't any room between the body and the footer.*/
+  padding-top:10px; /*This sets the top padding space of an element.*/
+}
+
+/*This will edit the text in the footer.*/
+h3{
+ background-image: url("images/IMG-mountain.JPG");/*This will be the background image for the footer.*/
+ height: 100%; /*This adjusts the height of the footer background.*/
+ text-align: center;/*This centers the text in the footer.*/
+}
+
+/*This will style each main point in the body of my webpage.*/
+h2{
+  text-align: center;/*This centers the text for header 2.*/
+}
+
+/*This will style each paragraph in my webpage*/
+p{
+text-align: center;/*This will center the text in the webpage.*/
+font-style: italic;/*This will make all the fonts italic.*/
+}
+
+footer{
+  height: 50px;/*This adjusts the height of the footer.*/
+}
+
+/*This will style the cover photo of my webpage.*/
+.cover, .background{
+  border-radius: 50%;/*This makes the photo of me more like an oval instead of a rectangle.*/
+    display: block; /*Displays an element as a block element. It starts on a new line, and takes up the whole width.*/
+    margin-left: auto; /* These two styles will center the image.*/
+    argin-right: auto; /* These two styles will center the image.*/
+    width: 250px; /*This sets the width of the images to 250px width*/
+}
+
+/*This changes the color of the links in my webpage depending on the status of the links.*/
+a:link    { color: green;  } /*This is the main color of the link before you hover over it or click on it.*/
+a:visited { color: red;   }/*This is the color of the link if you have already clicked on the link.*/
+a:hover   { color: blue; } /*If you hover your mouse over the link is will present as blue.*/
+a:active  { color: black;  }/*This will be the color shown when you click on the link.*/
+
+/*This will style the links in my webpage.*/
+.linkedin, .git-hub {
+  font-size: 20px;/*This changes the font size of my links.*/
+  text-decoration: none;/*This gets rid of the underline of the links.*/
+}
