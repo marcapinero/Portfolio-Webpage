@@ -1,0 +1,58 @@
+body{
+  margin: 0; /*The space outside the border is zero.*/ 
+  height: 100vh; /*Edits the height of the webpage.*/
+  font-family: 'Times New Roman', Times, serif /*This sets the font for all the text in the body*/
+ }
+
+nav {
+background-color: #95A3A4; /*Sets background color for NAV Bar*/
+ flex: 1; /*This will make the navigation bar fill the page horizontally.*/
+   max-width: 100%;/*This makes the width fit to the screen*/
+   background-size: cover; /*This scales the image as large as possible to fill the navigation container.*/
+   padding: 20px;/*There will be 20px space between the inner box and the outer border.*/
+   margin: 0px;/*The space outside the border is zero.*/ 
+   line-height: 1%;/*This brings the text in my navigation bar closer together.*/
+   font-size: 21px; /* Sets font size.*/
+   text-align: center; /*Centers text in the navigation bar*/
+}
+
+footer{
+  background-color: #95A3A4; /*Sets background color for footer*/
+ flex: 1; /*This will make the footer bar fill the page horizontally.*/
+   /*This makes the width fit to the screen*/
+ padding: 5px;/*There will be 5px space between the inner box and the outer border.*/
+   /*The space outside the border is zero.*/ 
+   line-height: 1%;/*This brings the text in my navigation bar closer together.*/
+   font-size: 15px; /* Adjusts the font-size to 15px.*/
+  position:fixed; /* Makes footer stay in the same place even when you are scrolling*/
+ bottom:0; /* Sets bottom edge to 0.*/
+ left:0; /* Sets left edge to 0 */
+ width: 100%; /*Makes footer display all the way across webpage*/
+}
+
+main{
+  background-color: #cce3de; /*Sets back ground color of the body of my webpage*/
+  padding: 100px; /*There will be 100px space between the inner box and the outer border.*/
+   margin: 0; /*The space outside the border is zero.*/ 
+  min-height: 100%; /* Sets minimum height for the main part of my website.*/
+}
+
+/*This changes the color of the links in my webpage depending on the status of the links.*/
+a:link    {color: green;} /*This is the main color of the link before you hover over it or click on it.*/
+a:visited {color: red;}/*This is the color of the link if you have already clicked on the link.*/
+a:hover   {color: blue;} /*If you hover your mouse over the link is will present as blue.*/
+a:active  {color: black;}/*This will be the color shown when you click on the link.*/
+
+/*This will style the links in my webpage.*/
+.linkedin, .git-hub {
+  font-size: 20px;/*This changes the font size of my links.*/
+  text-decoration: none;/*This gets rid of the underline of the links.*/
+}
+
+img{
+   height: 290px; /*This will set how tall each of my images are.*/'
+    margin-left: auto; /* These two styles will center the image.*/
+  margin-right: auto; /* These two styles will center the image.*/
+width: 300px;/*This sets the width of the images to 250 pixels*/
+border-radius: 50%; /*This rounds the image*/
+}
