@@ -1,3 +1,26 @@
+.topnav {
+  background-color: #95A3A4;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: red;
+}
+
 body{
   margin: 0; /*The space outside the border is zero.*/ 
   height: 100vh; /*Edits the height of the webpage.*/
@@ -9,7 +32,7 @@ background-color: #95A3A4; /*Sets background color for NAV Bar*/
  flex: 1; /*This will make the navigation bar fill the page horizontally.*/
    max-width: 100%;/*This makes the width fit to the screen*/
    background-size: cover; /*This scales the image as large as possible to fill the navigation container.*/
-   padding: 20px;/*There will be 20px space between the inner box and the outer border.*/
+   padding: 8px;/*There will be 20px space between the inner box and the outer border.*/
    margin: 0px;/*The space outside the border is zero.*/ 
    line-height: 1%;/*This brings the text in my navigation bar closer together.*/
    font-size: 21px; /* Sets font size.*/
@@ -50,7 +73,7 @@ a:active  {color: black;}/*This will be the color shown when you click on the li
 }
 
 img{
-   height: 290px; /*This will set how tall each of my images are.*/'
+   height: 290px; /*This will set how tall each of my images are.*/
     margin-left: auto; /* These two styles will center the image.*/
   margin-right: auto; /* These two styles will center the image.*/
 width: 300px;/*This sets the width of the images to 250 pixels*/
